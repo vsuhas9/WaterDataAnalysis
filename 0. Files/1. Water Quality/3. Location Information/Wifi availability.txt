@@ -1,0 +1,664 @@
+13:14:48.924 -> Establishing connection to WiFi..
+13:14:49.902 -> Establishing connection to WiFi..
+13:14:50.926 -> Establishing connection to WiFi..
+13:14:51.902 -> Establishing connection to WiFi..
+13:14:52.930 -> Establishing connection to WiFi..
+13:14:53.906 -> Establishing connection to WiFi..
+13:14:54.914 -> Establishing connection to WiFi..
+13:14:55.934 -> Establishing connection to WiFi..
+13:14:56.909 -> Establishing connection to WiFi..
+13:14:57.931 -> Establishing connection to WiFi..
+13:14:58.907 -> Establishing connection to WiFi..
+13:14:59.934 -> Establishing connection to WiFi..
+13:15:00.908 -> Establishing connection to WiFi..
+13:15:01.929 -> Establishing connection to WiFi..
+13:15:02.909 -> Establishing connection to WiFi..
+13:15:03.932 -> Establishing connection to WiFi..
+13:15:04.909 -> Establishing connection to WiFi..
+13:15:05.935 -> Establishing connection to WiFi..
+13:15:06.910 -> Establishing connection to WiFi..
+13:15:07.934 -> Establishing connection to WiFi..
+13:15:08.908 -> Establishing connection to WiFi..
+13:15:09.928 -> Establishing connection to WiFi..
+13:15:10.903 -> Establishing connection to WiFi..
+13:15:11.925 -> Establishing connection to WiFi..
+13:15:12.899 -> Establishing connection to WiFi..
+13:15:13.923 -> Establishing connection to WiFi..
+13:15:14.899 -> Establishing connection to WiFi..
+13:15:15.922 -> Establishing connection to WiFi..
+13:15:16.896 -> Establishing connection to WiFi..
+13:15:17.915 -> Establishing connection to WiFi..
+13:15:18.895 -> Establishing connection to WiFi..
+13:15:19.918 -> Establishing connection to WiFi..
+13:15:20.937 -> Establishing connection to WiFi..
+13:15:21.913 -> Establishing connection to WiFi..
+13:15:22.894 -> Establishing connection to WiFi..
+13:15:23.919 -> Establishing connection to WiFi..
+13:15:24.898 -> Establishing connection to WiFi..
+13:15:25.917 -> Establishing connection to WiFi..
+13:15:26.904 -> Establishing connection to WiFi..
+13:15:27.928 -> Establishing connection to WiFi..
+13:15:28.907 -> Establishing connection to WiFi..
+13:15:29.929 -> Establishing connection to WiFi..
+13:15:30.906 -> Establishing connection to WiFi..
+13:15:31.929 -> Establishing connection to WiFi..
+13:15:32.906 -> Establishing connection to WiFi..
+13:15:33.932 -> Establishing connection to WiFi..
+13:15:34.909 -> Establishing connection to WiFi..
+13:15:35.937 -> Establishing connection to WiFi..
+13:15:36.912 -> Establishing connection to WiFi..
+13:15:37.930 -> Establishing connection to WiFi..
+13:15:38.906 -> Establishing connection to WiFi..
+13:15:39.912 -> Establishing connection to WiFi..
+13:15:40.929 -> Establishing connection to WiFi..
+13:15:41.903 -> Establishing connection to WiFi..
+13:15:42.910 -> Establishing connection to WiFi..
+13:15:43.935 -> Establishing connection to WiFi..
+13:15:44.910 -> Establishing connection to WiFi..
+13:15:45.931 -> Establishing connection to WiFi..
+13:15:46.774 -> ets Jun  8 2016 00:22:57
+13:15:46.774 -> 
+13:15:46.774 -> rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:15:46.774 -> configsip: 0, SPIWP:0xee
+13:15:46.774 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:15:46.774 -> mode:DIO, clock div:1
+13:15:46.820 -> load:0x3fff0018,len:4
+13:15:46.820 -> load:0x3fff001c,len:1216
+13:15:46.820 -> ho 0 tail 12 room 4
+13:15:46.820 -> load:0x40078000,len:9720
+13:15:46.820 -> ho 0 tail 12 room 4
+13:15:46.820 -> load:0x40080400,len:6352
+13:15:46.820 -> entry 0x400806b8
+13:15:47.099 -> Connecting WiFI...
+13:15:47.099 -> BC:DD:C2:C5:43:38
+13:15:48.873 -> Number of networks found: 15
+13:15:48.873 -> Network name: redmi
+13:15:48.873 -> Signal strength: -61
+13:15:48.873 -> MAC address: 5E:62:7F:B8:EB:41
+13:15:48.873 -> Encryption type: WPA2_PSK
+13:15:48.873 -> ----------------------------------------------
+13:15:48.873 -> Network name: esw-m19@iiith
+13:15:48.919 -> Signal strength: -80
+13:15:48.919 -> MAC address: 00:B6:70:5B:77:84
+13:15:48.919 -> Encryption type: WPA2_PSK
+13:15:48.919 -> ----------------------------------------------
+13:15:48.919 -> Network name: eduroam
+13:15:48.919 -> Signal strength: -80
+13:15:48.919 -> MAC address: 2C:73:A0:77:BA:23
+13:15:48.919 -> Encryption type: WPA2_ENTERPRISE
+13:15:48.919 -> ----------------------------------------------
+13:15:48.919 -> Network name: faculty@iiith
+13:15:48.919 -> Signal strength: -80
+13:15:48.919 -> MAC address: 2C:73:A0:77:BA:22
+13:15:48.919 -> Encryption type: WPA_WPA2_PSK
+13:15:48.919 -> ----------------------------------------------
+13:15:48.919 -> Network name: wifi2@iiith
+13:15:48.919 -> Signal strength: -80
+13:15:48.965 -> MAC address: 2C:73:A0:77:BA:21
+13:15:48.965 -> Encryption type: WPA_WPA2_PSK
+13:15:48.965 -> ----------------------------------------------
+13:15:48.965 -> Network name: esw-m19@iiith
+13:15:48.965 -> Signal strength: -81
+13:15:48.965 -> MAC address: 2C:73:A0:77:BA:24
+13:15:48.965 -> Encryption type: WPA2_PSK
+13:15:48.965 -> ----------------------------------------------
+13:15:48.965 -> Network name: eduroam
+13:15:48.965 -> Signal strength: -82
+13:15:48.965 -> MAC address: 00:B6:70:5B:77:83
+13:15:48.965 -> Encryption type: WPA2_ENTERPRISE
+13:15:48.965 -> ----------------------------------------------
+13:15:48.965 -> Network name: wifi2@iiith
+13:15:48.965 -> Signal strength: -82
+13:15:48.965 -> MAC address: 00:B6:70:5B:77:81
+13:15:49.013 -> Encryption type: WPA_WPA2_PSK
+13:15:49.013 -> ----------------------------------------------
+13:15:49.013 -> Network name: wifi@iiith
+13:15:49.013 -> Signal strength: -82
+13:15:49.013 -> MAC address: 2C:73:A0:77:BA:20
+13:15:49.013 -> Encryption type: WPA2_ENTERPRISE
+13:15:49.013 -> ----------------------------------------------
+13:15:49.013 -> Network name: faculty@iiith
+13:15:49.013 -> Signal strength: -83
+13:15:49.013 -> MAC address: 00:B6:70:5B:77:82
+13:15:49.013 -> Encryption type: WPA_WPA2_PSK
+13:15:49.013 -> ----------------------------------------------
+13:15:49.013 -> Network name: wifi@iiith
+13:15:49.013 -> Signal strength: -84
+13:15:49.013 -> MAC address: 00:B6:70:5B:77:80
+13:15:49.013 -> Encryption type: WPA2_ENTERPRISE
+13:15:49.013 -> ----------------------------------------------
+13:15:49.013 -> Network name: faculty@iiith
+13:15:49.058 -> Signal strength: -87
+13:15:49.058 -> MAC address: 00:81:C4:90:F2:82
+13:15:49.058 -> Encryption type: WPA_WPA2_PSK
+13:15:49.058 -> ----------------------------------------------
+13:15:49.058 -> Network name: esw-m19@iiith
+13:15:49.058 -> Signal strength: -87
+13:15:49.058 -> MAC address: 00:81:C4:90:F2:84
+13:15:49.058 -> Encryption type: WPA2_PSK
+13:15:49.058 -> ----------------------------------------------
+13:15:49.058 -> Network name: eduroam
+13:15:49.058 -> Signal strength: -88
+13:15:49.058 -> MAC address: 00:81:C4:90:F2:83
+13:15:49.058 -> Encryption type: WPA2_ENTERPRISE
+13:15:49.058 -> ----------------------------------------------
+13:15:49.058 -> Network name: wifi@iiith
+13:15:49.058 -> Signal strength: -89
+13:15:49.104 -> MAC address: 00:81:C4:90:F2:80
+13:15:49.104 -> Encryption type: WPA2_ENTERPRISE
+13:15:49.104 -> ----------------------------------------------
+13:15:50.075 -> Establishing connection to WiFi..
+13:15:51.099 -> Establishing connection to WiFi..
+13:15:52.077 -> Establishing connection to WiFi..
+13:15:53.100 -> Establishing connection to WiFi..
+13:15:54.079 -> Establishing connection to WiFi..
+13:15:55.104 -> Establishing connection to WiFi..
+13:15:55.104 -> Connected to network
+13:15:55.104 -> 192.168.43.155
+13:15:55.104 -> Done!
+13:15:55.104 -> ####################################################################################################
+13:15:55.104 -> Publishing to server...http.post
+13:15:55.104 -> {"m2m:cin": {"cnf": "text/plain:0","con": "17"}}
+13:15:56.774 -> 404
+13:15:57.099 -> assertion "heap != NULL && "free() target pointer is outside heap areas"" failed: file "/home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/heap/heap_caps.c", line 267, function: heap_caps_free
+13:15:57.099 -> abort() was called at PC 0x4011f1cb on core 1
+13:15:57.099 -> 
+13:15:57.099 -> Backtrace: 0x4008c454:0x3ffb1e00 0x4008c685:0x3ffb1e20 0x4011f1cb:0x3ffb1e40 0x40084b2b:0x3ffb1e70 0x40084f39:0x3ffb1e90 0x4000bec7:0x3ffb1eb0 0x400d5b23:0x3ffb1ed0 0x400d5b31:0x3ffb1ef0 0x400d1f58:0x3ffb1f10 0x400d68d5:0x3ffb1fb0 0x40088b9d:0x3ffb1fd0
+13:15:57.147 -> 
+13:15:57.147 -> Rebooting...
+13:15:57.147 -> ets Jun  8 2016 00:22:57
+13:15:57.147 -> 
+13:15:57.147 -> rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:15:57.147 -> configsip: 0, SPIWP:0xee
+13:15:57.147 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:15:57.147 -> mode:DIO, clock div:1
+13:15:57.147 -> load:0x3fff0018,len:4
+13:15:57.147 -> load:0x3fff001c,len:1216
+13:15:57.147 -> ho 0 tail 12 room 4
+13:15:57.147 -> load:0x40078000,len:9720
+13:15:57.147 -> ho 0 tail 12 room 4
+13:15:57.147 -> load:0x40080400,len:6352
+13:15:57.193 -> entry 0x400806b8
+13:15:57.472 -> Connecting WiFI...
+13:15:57.472 -> BC:DD:C2:C5:43:38
+13:15:59.427 -> Number of networks found: 15
+13:15:59.427 -> Network name: redmi
+13:15:59.427 -> Signal strength: -72
+13:15:59.427 -> MAC address: 5E:62:7F:B8:EB:41
+13:15:59.427 -> Encryption type: WPA2_PSK
+13:15:59.474 -> ----------------------------------------------
+13:15:59.474 -> Network name: wifi2@iiith
+13:15:59.474 -> Signal strength: -80
+13:15:59.474 -> MAC address: 00:B6:70:5B:7A:E1
+13:15:59.474 -> Encryption type: WPA_WPA2_PSK
+13:15:59.474 -> ----------------------------------------------
+13:15:59.474 -> Network name: wifi2@iiith
+13:15:59.474 -> Signal strength: -80
+13:15:59.474 -> MAC address: 2C:73:A0:77:BA:21
+13:15:59.474 -> Encryption type: WPA_WPA2_PSK
+13:15:59.474 -> ----------------------------------------------
+13:15:59.474 -> Network name: eduroam
+13:15:59.474 -> Signal strength: -80
+13:15:59.474 -> MAC address: 2C:73:A0:77:BA:23
+13:15:59.474 -> Encryption type: WPA2_ENTERPRISE
+13:15:59.474 -> ----------------------------------------------
+13:15:59.474 -> Network name: esw-m19@iiith
+13:15:59.474 -> Signal strength: -80
+13:15:59.521 -> MAC address: 2C:73:A0:77:BA:24
+13:15:59.521 -> Encryption type: WPA2_PSK
+13:15:59.521 -> ----------------------------------------------
+13:15:59.521 -> Network name: wifi@iiith
+13:15:59.521 -> Signal strength: -81
+13:15:59.521 -> MAC address: 00:B6:70:5B:7A:E0
+13:15:59.521 -> Encryption type: WPA2_ENTERPRISE
+13:15:59.521 -> ----------------------------------------------
+13:15:59.521 -> Network name: faculty@iiith
+13:15:59.521 -> Signal strength: -81
+13:15:59.521 -> MAC address: 00:B6:70:5B:7A:E2
+13:15:59.521 -> Encryption type: WPA_WPA2_PSK
+13:15:59.521 -> ----------------------------------------------
+13:15:59.521 -> Network name: eduroam
+13:15:59.521 -> Signal strength: -81
+13:15:59.521 -> MAC address: 00:B6:70:5B:7A:E3
+13:15:59.568 -> Encryption type: WPA2_ENTERPRISE
+13:15:59.568 -> ----------------------------------------------
+13:15:59.568 -> Network name: wifi@iiith
+13:15:59.568 -> Signal strength: -81
+13:15:59.568 -> MAC address: 2C:73:A0:77:BA:20
+13:15:59.568 -> Encryption type: WPA2_ENTERPRISE
+13:15:59.568 -> ----------------------------------------------
+13:15:59.568 -> Network name: faculty@iiith
+13:15:59.568 -> Signal strength: -81
+13:15:59.568 -> MAC address: 2C:73:A0:77:BA:22
+13:15:59.568 -> Encryption type: WPA_WPA2_PSK
+13:15:59.568 -> ----------------------------------------------
+13:15:59.568 -> Network name: esw-m19@iiith
+13:15:59.568 -> Signal strength: -82
+13:15:59.568 -> MAC address: 00:B6:70:5B:7A:E4
+13:15:59.568 -> Encryption type: WPA2_PSK
+13:15:59.568 -> ----------------------------------------------
+13:15:59.568 -> Network name: wifi2@iiith
+13:15:59.614 -> Signal strength: -85
+13:15:59.614 -> MAC address: 00:B6:70:5B:77:81
+13:15:59.614 -> Encryption type: WPA_WPA2_PSK
+13:15:59.614 -> ----------------------------------------------
+13:15:59.614 -> Network name: faculty@iiith
+13:15:59.614 -> Signal strength: -86
+13:15:59.614 -> MAC address: 00:B6:70:5B:77:82
+13:15:59.614 -> Encryption type: WPA_WPA2_PSK
+13:15:59.614 -> ----------------------------------------------
+13:15:59.614 -> Network name: eduroam
+13:15:59.614 -> Signal strength: -86
+13:15:59.614 -> MAC address: 00:B6:70:5B:77:83
+13:15:59.614 -> Encryption type: WPA2_ENTERPRISE
+13:15:59.614 -> ----------------------------------------------
+13:15:59.614 -> Network name: esw-m19@iiith
+13:15:59.614 -> Signal strength: -87
+13:15:59.661 -> MAC address: 00:B6:70:5B:77:84
+13:15:59.661 -> Encryption type: WPA2_PSK
+13:15:59.661 -> ----------------------------------------------
+13:16:00.643 -> Establishing connection to WiFi..
+13:16:01.623 -> Establishing connection to WiFi..
+13:16:02.651 -> Establishing connection to WiFi..
+13:16:02.651 -> Connected to network
+13:16:02.651 -> 192.168.43.155
+13:16:02.651 -> Done!
+13:16:02.651 -> ####################################################################################################
+13:16:02.651 -> Publishing to server...http.post
+13:16:02.651 -> {"m2m:cin": {"cnf": "text/plain:0","con": "17"}}
+13:16:04.265 -> 404
+13:16:04.589 -> assertion "heap != NULL && "free() target pointer is outside heap areas"" failed: file "/home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/heap/heap_caps.c", line 267, function: heap_caps_free
+13:16:04.589 -> abort() was called at PC 0x4011f1cb on core 1
+13:16:04.589 -> 
+13:16:04.589 -> Backtrace: 0x4008c454:0x3ffb1e00 0x4008c685:0x3ffb1e20 0x4011f1cb:0x3ffb1e40 0x40084b2b:0x3ffb1e70 0x40084f39:0x3ffb1e90 0x4000bec7:0x3ffb1eb0 0x400d5b23:0x3ffb1ed0 0x400d5b31:0x3ffb1ef0 0x400d1f58:0x3ffb1f10 0x400d68d5:0x3ffb1fb0 0x40088b9d:0x3ffb1fd0
+13:16:04.636 -> 
+13:16:04.636 -> Rebooting...
+13:16:04.636 -> ets Jun  8 2016 00:22:57
+13:16:04.636 -> 
+13:16:04.636 -> rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:16:04.636 -> configsip: 0, SPIWP:0xee
+13:16:04.636 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:16:04.636 -> mode:DIO, clock div:1
+13:16:04.636 -> load:0x3fff0018,len:4
+13:16:04.636 -> load:0x3fff001c,len:1216
+13:16:04.636 -> ho 0 tail 12 room 4
+13:16:04.636 -> load:0x40078000,len:9720
+13:16:04.636 -> ho 0 tail 12 room 4
+13:16:04.636 -> load:0x40080400,len:6352
+13:16:04.636 -> entry 0x400806b8
+13:16:04.960 -> Connecting WiFI...
+13:16:04.960 -> BC:DD:C2:C5:43:38
+13:16:06.728 -> Number of networks found: 10
+13:16:06.728 -> Network name: faculty@iiith
+13:16:06.728 -> Signal strength: -80
+13:16:06.728 -> MAC address: 00:B6:70:5B:7A:E2
+13:16:06.728 -> Encryption type: WPA_WPA2_PSK
+13:16:06.728 -> ----------------------------------------------
+13:16:06.728 -> Network name: esw-m19@iiith
+13:16:06.728 -> Signal strength: -80
+13:16:06.728 -> MAC address: 00:B6:70:5B:7A:E4
+13:16:06.728 -> Encryption type: WPA2_PSK
+13:16:06.728 -> ----------------------------------------------
+13:16:06.775 -> Network name: wifi2@iiith
+13:16:06.775 -> Signal strength: -80
+13:16:06.775 -> MAC address: 2C:73:A0:77:BA:21
+13:16:06.775 -> Encryption type: WPA_WPA2_PSK
+13:16:06.775 -> ----------------------------------------------
+13:16:06.775 -> Network name: faculty@iiith
+13:16:06.775 -> Signal strength: -80
+13:16:06.775 -> MAC address: 2C:73:A0:77:BA:22
+13:16:06.775 -> Encryption type: WPA_WPA2_PSK
+13:16:06.775 -> ----------------------------------------------
+13:16:06.775 -> Network name: eduroam
+13:16:06.775 -> Signal strength: -80
+13:16:06.775 -> MAC address: 2C:73:A0:77:BA:23
+13:16:06.775 -> Encryption type: WPA2_ENTERPRISE
+13:16:06.775 -> ----------------------------------------------
+13:16:06.775 -> Network name: wifi@iiith
+13:16:06.821 -> Signal strength: -81
+13:16:06.821 -> MAC address: 00:B6:70:5B:7A:E0
+13:16:06.821 -> Encryption type: WPA2_ENTERPRISE
+13:16:06.821 -> ----------------------------------------------
+13:16:06.821 -> Network name: wifi2@iiith
+13:16:06.821 -> Signal strength: -81
+13:16:06.821 -> MAC address: 00:B6:70:5B:7A:E1
+13:16:06.821 -> Encryption type: WPA_WPA2_PSK
+13:16:06.821 -> ----------------------------------------------
+13:16:06.821 -> Network name: eduroam
+13:16:06.821 -> Signal strength: -81
+13:16:06.821 -> MAC address: 00:B6:70:5B:7A:E3
+13:16:06.821 -> Encryption type: WPA2_ENTERPRISE
+13:16:06.821 -> ----------------------------------------------
+13:16:06.821 -> Network name: esw-m19@iiith
+13:16:06.821 -> Signal strength: -81
+13:16:06.821 -> MAC address: 2C:73:A0:77:BA:24
+13:16:06.821 -> Encryption type: WPA2_PSK
+13:16:06.868 -> ----------------------------------------------
+13:16:06.868 -> Network name: wifi@iiith
+13:16:06.868 -> Signal strength: -92
+13:16:06.868 -> MAC address: 2C:73:A0:77:BA:20
+13:16:06.868 -> Encryption type: WPA2_ENTERPRISE
+13:16:06.868 -> ----------------------------------------------
+13:16:07.843 -> Establishing connection to WiFi..
+13:16:08.866 -> Establishing connection to WiFi..
+13:16:09.841 -> Establishing connection to WiFi..
+13:16:10.869 -> Establishing connection to WiFi..
+13:16:11.877 -> Establishing connection to WiFi..
+13:16:12.855 -> Establishing connection to WiFi..
+13:16:13.834 -> Establishing connection to WiFi..
+13:16:14.859 -> Establishing connection to WiFi..
+
+
+
+------------------------------------------maingate------------------------------------------------------------------------
+13:27:00.548 -> Establishing connection to WiFi..
+13:27:01.520 -> Establishing connection to WiFi..
+13:27:02.547 -> Establishing connection to WiFi..
+13:27:03.529 -> Establishing connection to WiFi..
+13:27:04.509 -> Establishing connection to WiFi..
+13:27:05.530 -> Establishing connection to WiFi..
+13:27:06.510 -> Establishing connection to WiFi..
+13:27:07.534 -> Establishing connection to WiFi..
+13:27:08.514 -> Establishing connection to WiFi..
+13:27:09.538 -> Establishing connection to WiFi..
+13:27:10.522 -> Establishing connection to WiFi..
+13:27:11.546 -> Establishing connection to WiFi..
+13:27:12.508 -> Establishing connection to WiFi..
+13:27:13.532 -> Establishing connection to WiFi..
+13:27:14.507 -> Establishing connection to WiFi..
+13:27:15.578 -> ets Jun  8 2016 00:22:57
+13:27:15.578 -> 
+13:27:15.578 -> rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:27:15.624 -> configsip: 0, SPIWP:0xee
+13:27:15.624 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:27:15.624 -> mode:DIO, clock div:1
+13:27:15.624 -> load:0x3fff0018,len:4
+13:27:15.624 -> load:0x3fff001c,len:1216
+13:27:15.624 -> ho 0 tail 12 room 4
+13:27:15.624 -> load:0x40078000,len:9720
+13:27:15.624 -> ho 0 tail 12 room 4
+13:27:15.624 -> load:0x40080400,len:6352
+13:27:15.624 -> entry 0x400806b8
+13:27:15.902 -> Connecting WiFI...
+13:27:15.902 -> BC:DD:C2:C5:43:38
+13:27:17.715 -> Number of networks found: 3
+13:27:17.715 -> Network name: redmi
+13:27:17.715 -> Signal strength: -71
+13:27:17.715 -> MAC address: 5E:62:7F:B8:EB:41
+13:27:17.715 -> Encryption type: WPA2_PSK
+13:27:17.715 -> ----------------------------------------------
+13:27:17.715 -> Network name: esw-m19@iiith
+13:27:17.715 -> Signal strength: -80
+13:27:17.715 -> MAC address: 00:B6:70:5B:82:40
+13:27:17.715 -> Encryption type: WPA2_PSK
+13:27:17.715 -> ----------------------------------------------
+13:27:17.715 -> Network name: JioFi3_1E6174
+13:27:17.715 -> Signal strength: -93
+13:27:17.715 -> MAC address: D8:0F:99:1E:61:74
+13:27:17.715 -> Encryption type: WPA_WPA2_PSK
+13:27:17.762 -> ----------------------------------------------
+13:27:18.741 -> Establishing connection to WiFi..
+13:27:18.741 -> Connected to network
+13:27:18.741 -> 192.168.43.155
+13:27:18.741 -> Done!
+13:27:18.741 -> ####################################################################################################
+13:27:18.741 -> Publishing to server...http.post
+13:27:18.741 -> {"m2m:cin": {"cnf": "text/plain:0","con": "17"}}
+13:27:20.416 -> 404
+13:27:20.744 -> assertion "heap != NULL && "free() target pointer is outside heap areas"" failed: file "/home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/heap/heap_caps.c", line 267, function: heap_caps_free
+13:27:20.744 -> abort() was called at PC 0x4011f1cb on core 1
+13:27:20.744 -> 
+13:27:20.744 -> Backtrace: 0x4008c454:0x3ffb1e00 0x4008c685:0x3ffb1e20 0x4011f1cb:0x3ffb1e40 0x40084b2b:0x3ffb1e70 0x40084f39:0x3ffb1e90 0x4000bec7:0x3ffb1eb0 0x400d5b23:0x3ffb1ed0 0x400d5b31:0x3ffb1ef0 0x400d1f58:0x3ffb1f10 0x400d68d5:0x3ffb1fb0 0x40088b9d:0x3ffb1fd0
+13:27:20.744 -> 
+13:27:20.744 -> Rebooting...
+13:27:20.744 -> ets Jun  8 2016 00:22:57
+13:27:20.790 -> 
+13:27:20.790 -> rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:27:20.790 -> configsip: 0, SPIWP:0xee
+13:27:20.790 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:27:20.790 -> mode:DIO, clock div:1
+13:27:20.790 -> load:0x3fff0018,len:4
+13:27:20.790 -> load:0x3fff001c,len:1216
+13:27:20.790 -> ho 0 tail 12 room 4
+13:27:20.790 -> load:0x40078000,len:9720
+13:27:20.790 -> ho 0 tail 12 room 4
+13:27:20.790 -> load:0x40080400,len:6352
+13:27:20.790 -> entry 0x400806b8
+13:27:21.069 -> Connecting WiFI...
+13:27:21.069 -> BC:DD:C2:C5:43:38
+13:27:22.880 -> Number of networks found: 3
+13:27:22.880 -> Network name: redmi
+13:27:22.880 -> Signal strength: -66
+13:27:22.880 -> MAC address: 5E:62:7F:B8:EB:41
+13:27:22.880 -> Encryption type: WPA2_PSK
+13:27:22.880 -> ----------------------------------------------
+13:27:22.880 -> Network name: esw-m19@iiith
+13:27:22.880 -> Signal strength: -81
+13:27:22.880 -> MAC address: 00:B6:70:5B:82:40
+13:27:22.880 -> Encryption type: WPA2_PSK
+13:27:22.880 -> ----------------------------------------------
+13:27:22.880 -> Network name: gachibowlitrafficps
+13:27:22.880 -> Signal strength: -87
+13:27:22.928 -> MAC address: 0C:B6:D2:0F:29:8C
+13:27:22.928 -> Encryption type: WPA_WPA2_PSK
+13:27:22.928 -> ----------------------------------------------
+13:27:23.906 -> Establishing connection to WiFi..
+13:27:24.887 -> Establishing connection to WiFi..
+13:27:25.914 -> Establishing connection to WiFi..
+13:27:26.890 -> Establishing connection to WiFi..
+13:27:27.899 -> Establishing connection to WiFi..
+13:27:28.923 -> Establishing connection to WiFi..
+13:27:29.902 -> Establishing connection to WiFi..
+13:27:30.883 -> Establishing connection to WiFi..
+13:27:31.908 -> Establishing connection to WiFi..
+13:27:32.888 -> Establishing connection to WiFi..
+13:27:33.916 -> Establishing connection to WiFi..
+13:27:34.899 -> Establishing connection to WiFi..
+13:27:35.921 -> Establishing connection to WiFi..
+13:27:36.898 -> Establishing connection to WiFi..
+13:27:37.924 -> Establishing connection to WiFi..
+13:27:38.900 -> Establishing connection to WiFi..
+13:27:39.881 -> Establishing connection to WiFi..
+13:27:40.908 -> Establishing connection to WiFi..
+13:27:41.885 -> Establishing connection to WiFi..
+13:27:42.908 -> Establishing connection to WiFi..
+13:27:43.883 -> Establishing connection to WiFi..
+13:27:44.908 -> Establishing connection to WiFi..
+13:27:45.887 -> Establishing connection to WiFi..
+13:27:46.909 -> Establishing connection to WiFi..
+13:27:47.884 -> Establishing connection to WiFi..
+13:27:48.905 -> Establishing connection to WiFi..
+13:27:49.882 -> Establishing connection to WiFi..
+13:27:50.903 -> Establishing connection to WiFi..
+13:27:51.880 -> Establishing connection to WiFi..
+13:27:52.906 -> Establishing connection to WiFi..
+13:27:53.883 -> Establishing connection to WiFi..
+13:27:54.905 -> Establishing connection to WiFi..
+13:27:55.885 -> Establishing connection to WiFi..
+13:27:56.909 -> Establishing connection to WiFi..
+13:27:57.891 -> Establishing connection to WiFi..
+13:27:58.917 -> Establishing connection to WiFi..
+13:27:59.897 -> Establishing connection to WiFi..
+13:28:00.920 -> Establishing connection to WiFi..
+13:28:01.899 -> Establishing connection to WiFi..
+13:28:02.925 -> Establishing connection to WiFi..
+13:28:03.904 -> Establishing connection to WiFi..
+13:28:04.884 -> Establishing connection to WiFi..
+13:28:05.907 -> Establishing connection to WiFi..
+13:28:06.886 -> Establishing connection to WiFi..
+13:28:07.900 -> Establishing connection to WiFi..
+13:28:08.923 -> Establishing connection to WiFi..
+13:28:09.902 -> Establishing connection to WiFi..
+13:28:10.883 -> Establishing connection to WiFi..
+13:28:11.911 -> Establishing connection to WiFi..
+13:28:12.886 -> Establishing connection to WiFi..
+13:28:13.910 -> Establishing connection to WiFi..
+13:28:14.889 -> Establishing connection to WiFi..
+13:28:15.910 -> Establishing connection to WiFi..
+13:28:16.888 -> Establishing connection to WiFi..
+13:28:17.910 -> Establishing connection to WiFi..
+13:28:18.885 -> Establishing connection to WiFi..
+13:28:19.895 -> Establishing connection to WiFi..
+13:28:20.921 -> Establishing connection to WiFi..
+13:28:21.899 -> Establishing connection to WiFi..
+13:28:22.921 -> Establishing connection to WiFi..
+13:28:23.897 -> Establishing connection to WiFi..
+13:28:24.917 -> Establishing connection to WiFi..
+---------------------------------------------------------------himALAYARO
+13:43:29.070 -> Number of networks found: 11
+13:43:29.070 -> Network name: redmi
+13:43:29.070 -> Signal strength: -68
+13:43:29.070 -> MAC address: 5E:62:7F:B8:EB:41
+13:43:29.070 -> Encryption type: WPA2_PSK
+13:43:29.070 -> ----------------------------------------------
+13:43:29.070 -> Network name: wifi@iiith
+13:43:29.117 -> Signal strength: -71
+13:43:29.117 -> MAC address: 00:B6:70:5B:72:E0
+13:43:29.117 -> Encryption type: WPA2_ENTERPRISE
+13:43:29.117 -> ----------------------------------------------
+13:43:29.117 -> Network name: wifi2@iiith
+13:43:29.117 -> Signal strength: -71
+13:43:29.117 -> MAC address: 00:B6:70:5B:72:E1
+13:43:29.117 -> Encryption type: WPA_WPA2_PSK
+13:43:29.117 -> ----------------------------------------------
+13:43:29.117 -> Network name: faculty@iiith
+13:43:29.117 -> Signal strength: -71
+13:43:29.117 -> MAC address: 00:B6:70:5B:72:E2
+13:43:29.117 -> Encryption type: WPA_WPA2_PSK
+13:43:29.117 -> ----------------------------------------------
+13:43:29.117 -> Network name: eduroam
+13:43:29.117 -> Signal strength: -72
+13:43:29.164 -> MAC address: 00:B6:70:5B:72:E3
+13:43:29.164 -> Encryption type: WPA2_ENTERPRISE
+13:43:29.164 -> ----------------------------------------------
+13:43:29.164 -> Network name: esw-m19@iiith
+13:43:29.164 -> Signal strength: -75
+13:43:29.164 -> MAC address: 00:B6:70:5B:72:E4
+13:43:29.164 -> Encryption type: WPA2_PSK
+13:43:29.164 -> ----------------------------------------------
+13:43:29.164 -> Network name: wifi@iiith
+13:43:29.164 -> Signal strength: -83
+13:43:29.164 -> MAC address: 2C:73:A0:77:C7:40
+13:43:29.164 -> Encryption type: WPA2_ENTERPRISE
+13:43:29.164 -> ----------------------------------------------
+13:43:29.164 -> Network name: wifi2@iiith
+13:43:29.164 -> Signal strength: -83
+13:43:29.164 -> MAC address: 2C:73:A0:77:C7:41
+13:43:29.164 -> Encryption type: WPA_WPA2_PSK
+13:43:29.164 -> ----------------------------------------------
+13:43:29.211 -> Network name: faculty@iiith
+13:43:29.211 -> Signal strength: -83
+13:43:29.211 -> MAC address: 2C:73:A0:77:C7:42
+13:43:29.211 -> Encryption type: WPA_WPA2_PSK
+13:43:29.211 -> ----------------------------------------------
+13:43:29.211 -> Network name: eduroam
+13:43:29.211 -> Signal strength: -83
+13:43:29.211 -> MAC address: 2C:73:A0:77:C7:43
+13:43:29.211 -> Encryption type: WPA2_ENTERPRISE
+13:43:29.211 -> ----------------------------------------------
+13:43:29.211 -> Network name: esw-m19@iiith
+13:43:29.211 -> Signal strength: -83
+13:43:29.211 -> MAC address: 2C:73:A0:77:C7:44
+13:43:29.211 -> Encryption type: WPA2_PSK
+13:43:29.211 -> ----------------------------------------------
+13:43:30.229 -> Establishing connection to WiFi..
+13:43:30.229 -> Connected to network
+13:43:30.229 -> 192.168.43.155
+13:43:30.229 -> Done!
+13:43:30.229 -> ####################################################################################################
+13:43:30.229 -> Publishing to server...http.post
+13:43:30.229 -> {"m2m:cin": {"cnf": "text/plain:0","con": "17"}}
+13:43:31.765 -> 404
+13:43:32.091 -> assertion "heap != NULL && "free() target pointer is outside heap areas"" failed: file "/home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/heap/heap_caps.c", line 267, function: heap_caps_free
+13:43:32.091 -> abort() was called at PC 0x4011f1cb on core 1
+13:43:32.091 -> 
+13:43:32.091 -> Backtrace: 0x4008c454:0x3ffb1e00 0x4008c685:0x3ffb1e20 0x4011f1cb:0x3ffb1e40 0x40084b2b:0x3ffb1e70 0x40084f39:0x3ffb1e90 0x4000bec7:0x3ffb1eb0 0x400d5b23:0x3ffb1ed0 0x400d5b31:0x3ffb1ef0 0x400d1f58:0x3ffb1f10 0x400d68d5:0x3ffb1fb0 0x40088b9d:0x3ffb1fd0
+13:43:32.138 -> 
+13:43:32.138 -> Rebooting...
+13:43:32.138 -> ets Jun  8 2016 00:22:57
+13:43:32.138 -> 
+13:43:32.138 -> rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+13:43:32.138 -> configsip: 0, SPIWP:0xee
+13:43:32.138 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+13:43:32.138 -> mode:DIO, clock div:1
+13:43:32.138 -> load:0x3fff0018,len:4
+13:43:32.138 -> load:0x3fff001c,len:1216
+13:43:32.138 -> ho 0 tail 12 room 4
+13:43:32.138 -> load:0x40078000,len:9720
+13:43:32.184 -> ho 0 tail 12 room 4
+13:43:32.184 -> load:0x40080400,len:6352
+13:43:32.184 -> entry 0x400806b8
+13:43:32.465 -> Connecting WiFI...
+13:43:32.465 -> BC:DD:C2:C5:43:38
+13:43:34.231 -> Number of networks found: 10
+13:43:34.231 -> Network name: faculty@iiith
+13:43:34.231 -> Signal strength: -78
+13:43:34.231 -> MAC address: 00:B6:70:5B:72:E2
+13:43:34.231 -> Encryption type: WPA_WPA2_PSK
+13:43:34.231 -> ----------------------------------------------
+13:43:34.276 -> Network name: esw-m19@iiith
+13:43:34.276 -> Signal strength: -79
+13:43:34.276 -> MAC address: 00:B6:70:5B:72:E4
+13:43:34.276 -> Encryption type: WPA2_PSK
+13:43:34.276 -> ----------------------------------------------
+13:43:34.276 -> Network name: eduroam
+13:43:34.276 -> Signal strength: -79
+13:43:34.276 -> MAC address: 00:B6:70:5B:72:E3
+13:43:34.276 -> Encryption type: WPA2_ENTERPRISE
+13:43:34.276 -> ----------------------------------------------
+13:43:34.276 -> Network name: esw-m19@iiith
+13:43:34.276 -> Signal strength: -80
+13:43:34.276 -> MAC address: 2C:73:A0:77:C7:44
+13:43:34.276 -> Encryption type: WPA2_PSK
+13:43:34.276 -> ----------------------------------------------
+13:43:34.276 -> Network name: wifi@iiith
+13:43:34.276 -> Signal strength: -80
+13:43:34.276 -> MAC address: 00:B6:70:5B:72:E0
+13:43:34.276 -> Encryption type: WPA2_ENTERPRISE
+13:43:34.323 -> ----------------------------------------------
+13:43:34.323 -> Network name: wifi@iiith
+13:43:34.323 -> Signal strength: -81
+13:43:34.323 -> MAC address: 2C:73:A0:77:C7:40
+13:43:34.323 -> Encryption type: WPA2_ENTERPRISE
+13:43:34.323 -> ----------------------------------------------
+13:43:34.323 -> Network name: wifi2@iiith
+13:43:34.323 -> Signal strength: -81
+13:43:34.323 -> MAC address: 2C:73:A0:77:C7:41
+13:43:34.323 -> Encryption type: WPA_WPA2_PSK
+13:43:34.323 -> ----------------------------------------------
+13:43:34.323 -> Network name: faculty@iiith
+13:43:34.323 -> Signal strength: -81
+13:43:34.323 -> MAC address: 2C:73:A0:77:C7:42
+13:43:34.323 -> Encryption type: WPA_WPA2_PSK
+13:43:34.323 -> ----------------------------------------------
+13:43:34.370 -> Network name: eduroam
+13:43:34.370 -> Signal strength: -81
+13:43:34.370 -> MAC address: 2C:73:A0:77:C7:43
+13:43:34.370 -> Encryption type: WPA2_ENTERPRISE
+13:43:34.370 -> ----------------------------------------------
+13:43:34.370 -> Network name: wifi2@iiith
+13:43:34.370 -> Signal strength: -81
+13:43:34.370 -> MAC address: 00:B6:70:5B:72:E1
+13:43:34.370 -> Encryption type: WPA_WPA2_PSK
+13:43:34.370 -> ----------------------------------------------
+13:43:35.348 -> Establishing connection to WiFi..
+13:43:36.373 -> Establishing connection to WiFi..
+13:43:37.347 -> Establishing connection to WiFi..
+13:43:38.379 -> Establishing connection to WiFi..
+13:43:39.372 -> Establishing connection to WiFi..
+13:43:40.359 -> Establishing connection to WiFi..
+13:43:41.347 -> Establishing connection to WiFi..
+13:43:42.368 -> Establishing connection to WiFi..
+13:43:43.346 -> Establishing connection to WiFi..
+13:43:44.367 -> Establishing connection to WiFi..
+13:43:45.390 -> Establishing connection to WiFi..
+13:43:46.371 -> Establishing connection to WiFi..
+13:43:47.348 -> Establishing connection to WiFi..
+13:43:48.375 -> Establishing connection to WiFi..
+13:43:49.352 -> Establishing connection to WiFi..
+13:43:50.377 -> Establishing connection to WiFi..
+13:43:51.359 -> Establishing connection to WiFi..
+13:43:52.386 -> Establishing connection to WiFi..
+13:43:53.367 -> Establishing connection to WiFi..
+13:43:54.390 -> Establishing connection to WiFi..
+13:43:55.368 -> Establishing connection to WiFi..

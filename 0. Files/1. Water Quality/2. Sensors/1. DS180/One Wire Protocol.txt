@@ -1,0 +1,52 @@
+Introduction:
+
+A single "master" device communicates with one or more 1-Wire "slave" devices over a single data line,
+which can also be used to provide power to the slave devices.
+(Devices drawing power from the 1-wire bus are said to be operating in parasitic power mode.) 
+
+Similar to UART/USART masters, they handle clocked operations natively with the use of a buffer,
+ offloading the processing load from the host processor (e.g. sensor gateway or microcontroller)
+ and increase accuracy. External pull-up resistors are also often not required. 
+
+
+
+Bit-Banging Approach:
+
+manual toggle of the pin state is used to emulate a UART/USART 
+with reconstruction of the signal from the received data
+
+Powering OneWire devices:
+
+
+The chip can be powered two ways. One (the "parasitic" option) means that only two wires need go to the chip.
+ The other may, in some cases, give more reliable operation (parasitic often works well), as an extra wire 
+carrying the power for the chip is involved.
+  
+ Parasite power mode
+When operating in parasite power mode, only two wires are required: one data wire, and ground. In this mode, 
+the power line must be connected to ground, per the datasheet. At the master, a 4.7k pull-up resistor must be 
+connected to the 1-wire bus. When the line is in a "high" state, the device pulls current to charge an internal capacitor.
+
+This current is usually very small, but may go as high as 1.5 mA when doing a temperature conversion or writing EEPROM.
+ When a slave device is performing one these operations, the bus master must keep the bus pulled high to provide power 
+until the operation completes; a delay of 750ms is required for a DS18S20 temperature conversion. The master can't do anything during this time, like issuing commands to other devices, 
+or polling for the slave's operation to be completed. To support this, the OneWire library makes it possible to have the bus held high after the data is written.
+
+Normal (external supply) mode
+With an external supply, three wires are required: the bus wire, ground, and power. The 4.7k pull-up resistor is still
+ required on the bus wire. As the bus is free for data transfer, the microcontroller can continually poll the state of a
+ device doing a conversion. This way, a conversion request can finish as soon as the device reports being done, as opposed 
+to having to wait for conversion time (dependent on device function and resolution) in "parasite" power mode. 
+
+
+Addressing a OneWire device
+
+Each 1-Wire device contains a unique 64-bit 'ROM' address, 
+consisting of an 8-bit family code, a 48-bit serial number, and an 8-bit CRC.
+
+The CRC is used to verify the integrity of the data.
+
+Single device commands as well multiple device commands can also be used
+
+Reading a OneWire device
+
